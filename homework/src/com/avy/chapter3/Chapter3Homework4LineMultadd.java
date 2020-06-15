@@ -1,4 +1,4 @@
-package com.avy.java.chapter3;
+package com.avy.chapter3;
 
 import java.util.Scanner;
 

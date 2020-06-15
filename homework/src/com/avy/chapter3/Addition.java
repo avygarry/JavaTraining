@@ -1,4 +1,4 @@
-package com.avy.java;
+package com.avy.chapter3;
 
 public class Addition {
 	public static void main(String[] args) {

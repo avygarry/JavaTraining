@@ -1,4 +1,4 @@
-package com.avy.java;
+package com.avy.chapter2;
 
 public class Class2Homework2 {
 	

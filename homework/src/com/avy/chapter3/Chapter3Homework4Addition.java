@@ -1,8 +1,8 @@
-package com.avy.java.chapter3;
+package com.avy.chapter3;
 
 import java.util.Scanner;
 
-public class Chapter3Homework4Subtraction {
+public class Chapter3Homework4Addition {
 	public static float readUserFloatInput (String aInputMsg) {
 		System.out.print( aInputMsg + " ");
 		Scanner scanner = new Scanner(System.in);
@@ -14,9 +14,9 @@ public class Chapter3Homework4Subtraction {
 	public static void main (String[] arg) {
 		float num1 = readUserFloatInput("Enter the first number: ");
 		float num2 = readUserFloatInput("Enter the second number: ");
-		float answer = num1 - num2;
+		float answer = num1 + num2;
 		
-		System.out.println(num1 + " - " + num2 + " = " + answer);
+		System.out.println(num1 + " + " + num2 + " = " + answer);
 
 	}
 }

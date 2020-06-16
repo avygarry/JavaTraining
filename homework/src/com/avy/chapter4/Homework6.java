@@ -45,16 +45,21 @@ public class Homework6 {
 		System.out.println("Avishi's Pizzaz | Always Fresh. Always Smelly | Avishi's Pizzaz");
 		System.out.println("---------------------------------------------------------------------------------------");
 		System.out.println("Item                       | Quantity               | Cost             |");
-		if (GCpizza < 0);
+		if (GCpizza > 0) {
 			System.out.println("Goat Cheese Pizza          | "+GCpizza+"                      | $"+ totalGCpizza +"              |");
-		if (CFpizza < 0);
+		}
+		if (CFpizza > 0) {
 			System.out.println("Chicken Feet Pizza         | "+CFpizza+"                      | $"+totalCFpizza+"              |");
-		if (VFTpizza < 0);
+		}
+		if (VFTpizza > 0) {
 			System.out.println("Venus Fly Trap Pizza       | "+VFTpizza+"                      | $"+totalVFTpizza+"              |");
-		if (BW < 0);
+		}	
+		if (BW > 0) {
 			System.out.println("Buffalo Wings              | "+BW+"                      | $"+totalBW+"              |");
-		if (Brownies < 0);
+		}	
+		if (Brownies > 0) {
 			System.out.println("Goat Cheese Pizza          | "+Brownies+"                      | $"+totalBrownies+"              |");
+		}	
 		float GCTax = (float) (totalGCpizza*1.2);
 		float CFTax = (float) (totalCFpizza*1.2);
 		float VFTTax = (float) (totalVFTpizza*1.2);

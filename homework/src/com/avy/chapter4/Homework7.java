@@ -16,7 +16,12 @@ public class Homework7 {
 		System.out.println("C-F      | That turns Celcius into Fahrenheit");
 		System.out.println("F-C      | That turns Fahrenheit into celcius");
 		String convert = readUserStringInput("Type is here: ");
-		System.out.println(convert);
+		String 
+		
+		if (convert == "C-F");
+		
+			
+		
 		
 	}
 }

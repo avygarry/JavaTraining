@@ -2,7 +2,7 @@ package com.avy.chapter4;
 
 import java.util.Scanner;
 
-public class Chapter4Homework4 {
+public class Homework4 {
 	
 	public static int readUserIntInput(String aInputMsg) {
 		System.out.print(aInputMsg + " ");

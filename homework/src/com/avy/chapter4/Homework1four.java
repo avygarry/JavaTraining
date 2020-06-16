@@ -2,7 +2,7 @@ package com.avy.chapter4;
 
 import java.util.Scanner;
 
-public class Homework1Four  {
+public class Homework1four  {
 	public static float readUserFloatInput (String aInputMsg) {
 		System.out.print( aInputMsg + " ");
 		Scanner scanner = new Scanner(System.in);
@@ -14,20 +14,20 @@ public class Homework1Four  {
 		float number2 = readUserFloatInput("Enter the second number: ");
 		float number3 = readUserFloatInput("Enter the third number: ");
 		float number4 = readUserFloatInput("Enter the fourth number: ");
-		float maxNum = 1;
+		float minNum = 1;
 		if (number1 < number2) {
-			maxNum = number1;
+			minNum = number1;
 		}	else {
-			maxNum = number2;
-		if (maxNum > number3) {
-			maxNum = number3;
-		if (maxNum > number4) {
-			maxNum = number4;
-		System.out.println(maxNum + " is the greatest number");
+			minNum = number2;
+		if (minNum > number3) {
+			minNum = number3;
+		if (minNum > number4) {
+			minNum = number4;
+		}
+	System.out.println(minNum + " is the smallest number");
 		
 		}
 			
 		}
 		}
-	}
 	}
